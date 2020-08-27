@@ -1,0 +1,41 @@
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 5px solid white;
+  left: 110px;
+  top: 3px;
+  position: absolute;
+}
+.div3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 5px solid white;
+  left: 218px;
+  top: 3px;
+  position: absolute;
+}
+.div4 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 5px solid white;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.div5 {
+  width: 100px;
+  height: 100px;
+  background-color: plum;
+  border: 5px solid white;
+  position: absolute;
+  top: 50px;
+  left: 175px;
+}
