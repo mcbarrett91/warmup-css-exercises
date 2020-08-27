@@ -35,3 +35,16 @@
   left: 65px;
   transform: rotate(45deg);
 }
+
+.div5::after {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  top: 38px;
+  left: 38px;
+  content: "★";
+}
