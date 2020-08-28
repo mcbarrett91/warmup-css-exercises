@@ -1,4 +1,4 @@
-.div1 {
+/* .div1 {
   width: 100px;
   height: 100px;
   background-color: blue;
@@ -33,4 +33,38 @@
   position: absolute;
   top: 60px;
   left: 60px;
+} */
+
+.interior {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: blue;
+  position: relative;
+}
+
+.div1 {
+  float: left;
+  margin: 5px;
+}
+
+.div2 {
+  float: left;
+  margin: 5px;
+}
+
+.div3 {
+  clear: left;
+  float: left;
+  margin: 5px;
+}
+
+.div4 {
+  float: left;
+  margin: 5px;
+}
+
+.div5 {
+  background: red;
+  transform: translate(-160%, 60%);
 }

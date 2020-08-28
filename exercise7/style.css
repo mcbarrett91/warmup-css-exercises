@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+.interior {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.div1 {
+  background-color: rgba(255, 0, 0, 0.75);
+  left: 120px;
+}
+.div1::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 100px;
+  height: 100px;
+  right: 120px;
+}
+.div1::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  left: 120px;
+  bottom: 104px;
+}
+.div2 {
+  background-color: rgba(255, 160, 0, 0.75);
+  left: 120px;
+  margin-top: 20px;
+}
+.div2::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: rgba(255, 160, 0, 0.5);
+  width: 100px;
+  height: 100px;
+  right: 120px;
+}
+.div2::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  left: 120px;
+  bottom: 104px;
+}
+.div3 {
+  background-color: rgba(255, 255, 0, 0.75);
+  left: 120px;
+  margin-top: 20px;
+}
+.div3::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: rgba(255, 255, 0, 0.5);
+  width: 100px;
+  height: 100px;
+  right: 120px;
+}
+.div3::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  left: 120px;
+  bottom: 104px;
+}
+.div4 {
+  background-color: rgba(0, 0, 255, 0.75);
+  left: 120px;
+  margin-top: 20px;
+}
+.div4::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: rgba(0, 0, 255, 0.5);
+  width: 100px;
+  height: 100px;
+  right: 120px;
+}
+.div4::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  left: 120px;
+  bottom: 104px;
+}
+.div5 {
+  background-color: rgba(238, 130, 238, 0.75);
+  left: 120px;
+  margin-top: 20px;
+}
+.div5::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: rgba(238, 130, 238, 0.5);
+  width: 100px;
+  height: 100px;
+  right: 120px;
+}
+.div5::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+  left: 120px;
+  bottom: 104px;
+}
